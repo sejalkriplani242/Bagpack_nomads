@@ -1,0 +1,49 @@
+.topnav{
+    text-align: right;
+    color:black;
+}
+.topnav a{
+    padding-left: 20px;
+}
+
+.c-image{
+	height: 400px;
+	filter: blur(1px);
+	-webkit-fliter: blur(1px);
+	background-position: center;
+	background-size: cover;
+}
+
+.pack-card{
+	border: 2px solid rgba(0,0,0,0.1); 
+	float: left;
+	margin-top: 20px;
+}
+
+.pack-card-rest{
+	margin-left: 90px;
+}
+
+.main-nav{
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+}
+
+.nav-item{
+	color: white;
+}
+
+.bg-text {
+  	background-color: rgba(0,0,0, 0.4); 
+  	color: white;
+  	font-weight: bold;
+  	border: 1px solid #f1f1f1;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: 2;
+  	width: 60%;
+  	padding: 40px;
+  	text-align: center;
+}
